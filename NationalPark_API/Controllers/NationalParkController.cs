@@ -11,6 +11,7 @@ namespace NationalPark_API.Controllers
 {
     [Route("api/nationalPark")]
     [ApiController]
+    [Authorize]
     
     public class NationalParkController : Controller
     {

@@ -12,6 +12,7 @@ namespace NationalPark_API.Controllers
 {
     [Route("api/trail")]
     [ApiController]
+    [Authorize]
     public class TrailController : Controller
     {
         private readonly ITrailRepository _trailRepository;
